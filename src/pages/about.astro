@@ -11,12 +11,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 				title="About"
 				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
 			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Mubashir at work with a colleague"
-				/>
 			</Hero>
 
 			<section>
@@ -49,11 +43,29 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
-				</div>
-			</section>
+  <h2 class="section-title">Skills</h2>
+  <div class="content">
+    <ul class="skills-grid">
+      <li>
+        <h5>DevOps & Cloud</h5>
+        <p>AWS, Docker, Kubernetes, Linux, CI/CD, Terraform</p>
+      </li>
+      <li>
+        <h5>Programming</h5>
+        <p>JavaScript, Python, Java, SQL, C#</p>
+      </li>
+      <li>
+        <h5>Web Development</h5>
+        <p>HTML, CSS, React, Astro, Node.js, Vue.js, Angular, Laravel, MVC .NET</p>
+      </li>
+      <li>
+        <h5>Other Tools</h5>
+        <p>Git, GitHub, VS Code, Canva</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
 		</main>
 
 		<ContactCTA />
