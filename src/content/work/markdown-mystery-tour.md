@@ -1,35 +1,45 @@
 ---
-title: Markdown Mystery Tour
-publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+title: "E-Commerce Analytics Dashboard"
+publishDate: 2025-08-19
+img: "/assets/python.jpg"
+img_alt: "Streamlit sales dashboard with KPIs, charts, and filters"
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  A Streamlit-powered analytics app for exploring e-commerce sales:
+  KPIs, monthly trends, category & city leaders, CSV export, and a 3-month sales forecast (Holt-Winters).
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Python
+  - Streamlit
+  - Forecasting
 ---
 
-## Level-two heading
+## Overview
+Interactive dashboard built with **Python + Streamlit** to analyze orders and revenue.  
+Users can filter by **Month-Year**, **Category**, and **City**, view KPIs, trends, and top performers, export filtered data, and generate a short-term **sales forecast**.
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+### 🔍 Features
+- **KPIs:** Total Sales, Total Profit, Avg. Order Value  
+- **Trends:** Monthly sales line chart  
+- **Leaders:** Top categories & Top 10 cities (bar charts)  
+- **Filters:** Month-Year, Category, City  
+- **Data export:** Download filtered CSV  
+- **Forecasting:** 3-month projection via **ExponentialSmoothing (Holt-Winters)**
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+### 🧰 Tech Stack
+- **Python**, **Pandas**, **Matplotlib**
+- **Streamlit** (UI & layout)
+- **statsmodels** (Holt-Winters)
+- Optional: **Plotly** (for interactive visuals)
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+### ▶️ Run Locally
 
-### Level-three heading
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-### Level-three heading
-
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+### 🔗 GitHub Repo
+<a href="https://github.com/Mubashir7933/-e-commerce-analytics-dashboard" target="_blank">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+       alt="GitHub Repo" width="60" height="60" />
+</a>
